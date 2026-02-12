@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0D0D0D;
+    color: #F5F5F5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAV */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+.logo {
+    font-weight: 700;
+    letter-spacing: 4px;
+}
+
+/* HERO */
+
+.hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 60px;
+    letter-spacing: 10px;
+}
+
+.hero p {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.hero button {
+    padding: 12px 30px;
+    border: 2px solid #FF4D00;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background-color: #FF4D00;
+}
+
+/* COLLECTIONS */
+
+.collections {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 60px;
+    gap: 20px;
+}
+
+.box {
+    background: #1F1F1F;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+.box:hover {
+    background-color: #FF4D00;
+}
+
+/* PHILOSOPHY */
+
+.philosophy {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.philosophy span {
+    color: #FF4D00;
+}
+
+/* FOOTER */
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: #1F1F1F;
+}
